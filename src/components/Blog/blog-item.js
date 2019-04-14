@@ -14,7 +14,7 @@ const BlogItem = props => {
 
   return (
     <div>
-      <Link to={`/b.${id}`}>
+      <Link to={`/b/${id}`}>
         <h1>{title}</h1>
       </Link>
 
